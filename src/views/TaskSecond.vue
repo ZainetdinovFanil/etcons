@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import BaseDateTimePicker from "../components/base/BaseDateTimePicker.vue";
-
-
-const count = ref(0);
 </script>
 
 <template>

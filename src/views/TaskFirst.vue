@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import BaseLink from "../components/base/BaseLink.vue";
-
-const count = ref(0);
 </script>
 
 <template>

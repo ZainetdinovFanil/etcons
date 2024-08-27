@@ -22,7 +22,7 @@
   import Calendar from "primevue/calendar";
   import Button from "primevue/button";
   
-  const time = ref<string | Date>("");
+  const time = ref<Date | null>();
   
   const dataTime = computed(() => {
     if (time.value) {
@@ -39,7 +39,7 @@
   };
   
   const clearDate = () => {
-    time.value = '';
+    time.value = null;
   };
   </script>
   
